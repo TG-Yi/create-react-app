@@ -12,18 +12,12 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-<<<<<<< HEAD
-        <p className="app1">中文书写：sass测试</p>
-        <p className="app2">中文书写：scss测试</p>
-        <p className="app">中文书写：less测试</p>
-=======
         <p className="app">
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <p className="appa">
           Edit <code>src/App.js</code> and save to reload.
         </p>
->>>>>>> NEW-190701
         <a
           className="App-link"
           href="https://reactjs.org"
