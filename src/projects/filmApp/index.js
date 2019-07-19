@@ -1,13 +1,13 @@
 import React, { Component } from "react"
-import { route } from "react-router"
-import { directive } from "@babel/types";
+import Header from "./components/header"
 
 import "./index.less"
 
 const styleClass = "index-style"
 
 
-export default class IndexRouter extends Component {
+class Index extends Component {
+
     constructor(props) {
         super(props)
         this.state = {
@@ -26,12 +26,16 @@ export default class IndexRouter extends Component {
 
 
     render() {
+        return (
+            <div className={styleClass}>
+                <Header/>
 
-        return(
-            <div className={styleClass} style={{ display: "flex", alignContent: "center", justifyContent: "center" }}>
-                <text>app路由页</text>
+                <div style={{ width: "100%", backgroundColor: "#00a4ff", height: 10000 }}>
 
+                </div>
             </div>
         )
     }
 }
+
+export default Index

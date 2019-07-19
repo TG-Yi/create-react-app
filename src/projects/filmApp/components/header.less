@@ -1,10 +1,7 @@
-@width: 14px;
-@styleName: index-style;
+@styleName: header-style;
 
 .@{styleName} {
-    font-size: @width;
-    color: aqua;
-
+    height: 40px;
     &-head {
         display: flex;
         position: fixed;
@@ -14,6 +11,7 @@
         width: 100%;
         height: 40px;
         line-height: 40px;
+        box-sizing: border-box;
         &-left {
             width: 40px;
             text-align: center;
