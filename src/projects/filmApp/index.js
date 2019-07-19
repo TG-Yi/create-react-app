@@ -2,6 +2,10 @@ import React, { Component } from "react"
 import { route } from "react-router"
 import { directive } from "@babel/types";
 
+import "./index.less"
+
+const styleClass = "index-style"
+
 
 export default class IndexRouter extends Component {
     constructor(props) {
@@ -24,7 +28,7 @@ export default class IndexRouter extends Component {
     render() {
 
         return(
-            <div style={{ display: "flex", alignContent: "center", justifyContent: "center" }}>
+            <div className={styleClass} style={{ display: "flex", alignContent: "center", justifyContent: "center" }}>
                 <text>app路由页</text>
 
             </div>
