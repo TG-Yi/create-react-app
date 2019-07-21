@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import Header from "./components/header"
+import Footer from "./components/footer"
 
 import "./index.less"
 
@@ -33,6 +34,7 @@ class Index extends Component {
                 <div style={{ width: "100%", backgroundColor: "#00a4ff", height: 10000 }}>
 
                 </div>
+                <Footer/>
             </div>
         )
     }
