@@ -26,13 +26,26 @@ class Index extends Component {
     }
 
 
+
     render() {
+        let arr = []
+        for(let i = 0; i< 100; i++) {
+            arr.push(i + "adjsasd时间啊和读卡机是的看见阿士大夫空间啊上打开哈斯柯达")   
+        }
         return (
             <div className={styleClass}>
                 <Header/>
 
-                <div style={{ width: "100%", backgroundColor: "#00a4ff", height: 10000 }}>
-
+                <div style={{ width: "100%", backgroundColor: "#00a4ff" }}>
+                    <div>5555555555555555555555</div>
+                    {
+                        arr.map((item) => {
+                            return(
+                                <div>{item}</div>
+                            )
+                        })
+                    }
+                    <div>aaaaaaaaaaaaaaa</div>
                 </div>
                 <Footer/>
             </div>

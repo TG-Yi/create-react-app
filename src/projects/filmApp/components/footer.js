@@ -19,7 +19,7 @@ class Footer extends Component {
             { title: "标题4", onClick: (item) => console.log(item), color: "#9f9f9f", fontSize: "12px", backgroundColor: "#dgdgdg" },
             { title: "标题5", onClick: (item) => console.log(item), color: "#9f9f9f", fontSize: "12px", backgroundColor: "#dgdgdg" }
         ],
-        activeStyle: { color: "red", backgroundColor: "blue" }
+        activeStyle: { color: "#fff", backgroundColor: "blue",  boxShadow: "rgb(220, 223, 227) 0px 0px 15px inset" }
     }
 
     constructor(props) {
