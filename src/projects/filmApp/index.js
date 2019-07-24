@@ -35,18 +35,19 @@ class Index extends Component {
         return (
             <div className={styleClass}>
                 <Header/>
-
+ 
                 <div style={{ width: "100%", backgroundColor: "#00a4ff" }}>
-                    <div>5555555555555555555555</div>
+                    <div>5555555555555555555555 </div>
                     {
-                        arr.map((item) => {
+                        arr.map((item, index) => {
                             return(
-                                <div>{item}</div>
+                                <div key={index}>{item}</div>
                             )
                         })
                     }
                     <div>aaaaaaaaaaaaaaa</div>
                 </div>
+                
                 <Footer/>
             </div>
         )
