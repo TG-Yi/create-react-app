@@ -2,7 +2,7 @@
   "name": "my",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/TG-Yi/create-react-app",
+  "homepage": ".",
   "dependencies": {
     "@babel/core": "7.4.3",
     "@svgr/webpack": "4.1.0",
@@ -68,8 +68,7 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "yarn build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -137,7 +136,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1",
     "less": "^3.9.0",
     "less-loader": "^5.0.0"
   }
