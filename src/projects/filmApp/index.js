@@ -35,7 +35,7 @@ class Index extends Component {
         // for (let i = 0; i < 100; i++) {
         //     arr.push(i + "adjsasd时间啊和读卡机是的看见阿士大夫空间啊上打开哈斯柯达")
         // }
-        console.log("reduxStore", this.rpos)
+        console.log("reduxStore", this.props)
         return (
             <Provider store={reduxStore}>
                 <div className={styleClass}>
