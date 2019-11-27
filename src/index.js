@@ -4,7 +4,7 @@ import './index.css';
 import Index from "../src/projects/filmApp/index"
 import * as serviceWorker from './serviceWorker';
 import  VConsole  from  'vconsole'
-const  vConsole = new VConsole()
+const  vConsole = new VConsole();
 
 ReactDOM.render(<Index />, document.getElementById('root'));
 
